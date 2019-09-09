@@ -25,7 +25,7 @@ WORKDIR /falcon-plus/falcon-message/bin/
 
 ENV PATH=/falcon-plus/falcon-message/bin/:$PATH
 
-EXPOSE 8080
+EXPOSE 23329
 
 ENTRYPOINT ["/usr/bin/dumb-init", "--"]
 
